@@ -4,7 +4,7 @@ import Main from '../../layout/Main';
 import Category from '../../Page/Category/Category/Category';
 import News from '../../Page/News/News/News';
 
-  export  const router = createBrowserRouter([{
+  export  const routers = createBrowserRouter([{
         path:'/',
         element:<Main/>,
         children:[
